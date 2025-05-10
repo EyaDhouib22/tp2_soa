@@ -178,7 +178,7 @@ The API provides the following endpoints:
     {
         "message": "success",
         "data": {
-            "id": "1", // Note: ID might be string from params
+            "id": "1", 
             "nom": "Robert (Bob)",
             "adresse": "456 Oak Ave, Updated"
         }
@@ -247,18 +247,5 @@ If Keycloak is enabled:
         *   **Scope:** `openid` (or as needed).
     *   Request and use the obtained token. Postman will usually add it as a `Bearer` token in the `Authorization` header.
 
-## Technologies Used
 
-*   [Node.js](https://nodejs.org/) - JavaScript runtime environment.
-*   [Express.js](https://expressjs.com/) - Web application framework for Node.js.
-*   [sqlite3](https://www.npmjs.com/package/sqlite3) - SQLite3 client library for Node.js.
-*   [express-session](https://www.npmjs.com/package/express-session) - Session middleware (used by Keycloak).
-*   [keycloak-connect](https://www.npmjs.com/package/keycloak-connect) - Keycloak adapter for Node.js.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/) (or specify your preferred license)
